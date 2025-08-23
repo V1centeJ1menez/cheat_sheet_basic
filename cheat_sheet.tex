@@ -489,9 +489,9 @@ T arr[n];
 sort(arr, arr + n);
 \end{lstlisting}
 
-Complejidad espacial: $\bigO(1)$
+Complejidad espacial: $\bigO(\log(n))$
 
-Complejidad temporal: $\theta(\log n)$
+Complejidad temporal: $\theta(n \log n)$
 
 \subsection*{\tt \footnotesize lower\_bound/upper\_bound}
 \begin{lstlisting}[language=C++]
@@ -565,7 +565,7 @@ Complejidades temporales:
       \hline
       [i:j] & $\theta(n)$\\
       \hline
-      sort & $\bigO(\log n)$ \\
+      sort & $\bigO(n \log n)$ \\
       \hline
       reverse & $\theta(n)$\\
     \end{tabular}
